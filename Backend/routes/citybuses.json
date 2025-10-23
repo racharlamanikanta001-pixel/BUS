@@ -1,0 +1,82 @@
+[
+  {
+    "state": "Andhra Pradesh",
+    "city": "Vijayawada",
+    "bus_number": "29B",
+    "route": ["PNBS", "Benz Circle", "Krishna Lanka", "Autonagar"],
+    "timings": { "start": "05:30", "end": "22:00", "frequency_minutes": 12 },
+    "bus_type": "Ordinary"
+  },
+  {
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "bus_number": "216D",
+    "route": ["Secunderabad", "Paradise", "Madhapur", "Gachibowli"],
+    "timings": { "start": "06:00", "end": "23:30", "frequency_minutes": 15 },
+    "bus_type": "AC"
+  },
+  {
+    "state": "Karnataka",
+    "city": "Bengaluru",
+    "bus_number": "201R",
+    "route": ["Majestic", "Indiranagar", "KR Puram", "Whitefield"],
+    "timings": { "start": "04:45", "end": "22:15", "frequency_minutes": 10 },
+    "bus_type": "Volvo"
+  },
+  {
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "bus_number": "12C",
+    "route": ["Broadway", "Egmore", "Kodambakkam", "Vadapalani"],
+    "timings": { "start": "05:15", "end": "22:45", "frequency_minutes": 8 },
+    "bus_type": "Ordinary"
+  },
+  {
+    "state": "Delhi",
+    "city": "New Delhi",
+    "bus_number": "740",
+    "route": ["Dwarka", "Janakpuri", "AIIMS", "Nehru Place"],
+    "timings": { "start": "06:00", "end": "23:00", "frequency_minutes": 9 },
+    "bus_type": "Electric"
+  },
+  {
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "bus_number": "BEST 123",
+    "route": ["Andheri", "Bandra", "Dadar", "CST"],
+    "timings": { "start": "05:00", "end": "23:30", "frequency_minutes": 6 },
+    "bus_type": "Ordinary"
+  },
+  {
+    "state": "Kerala",
+    "city": "Kochi",
+    "bus_number": "KUR 45",
+    "route": ["Aluva", "Kalamassery", "Ernakulam", "Fort Kochi"],
+    "timings": { "start": "05:20", "end": "21:40", "frequency_minutes": 18 },
+    "bus_type": "AC Low Floor"
+  },
+  {
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "bus_number": "S12",
+    "route": ["Howrah", "Esplanade", "Gariahat", "Jadavpur"],
+    "timings": { "start": "05:45", "end": "22:15", "frequency_minutes": 11 },
+    "bus_type": "Ordinary"
+  },
+  {
+    "state": "Rajasthan",
+    "city": "Jaipur",
+    "bus_number": "JP09",
+    "route": ["Ajmeri Gate", "Civil Lines", "Vaishali Nagar"],
+    "timings": { "start": "06:15", "end": "21:45", "frequency_minutes": 14 },
+    "bus_type": "Mini Bus"
+  },
+  {
+    "state": "Punjab",
+    "city": "Amritsar",
+    "bus_number": "AMR23",
+    "route": ["Golden Temple", "Bus Stand", "Ranjit Avenue"],
+    "timings": { "start": "05:30", "end": "20:30", "frequency_minutes": 20 },
+    "bus_type": "Ordinary"
+  }
+]
