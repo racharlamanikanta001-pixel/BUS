@@ -427,13 +427,17 @@
 
       let url = "";
 
-      if (busType === "city") {
-        url = `http://localhost:5000/api/citybuses?state=${state}&city=${city}`;
-      } else if (busType === "college") {
-        url = `http://localhost:5000/api/collegebuses?college_name=${college}`;
-      } else {
-        url = `http://localhost:5000/api/intercity?from_state=${state}&from_city=${city}`;
-      }
+   if (busType === "city") {
+  // For city buses
+  url = `https://bus-backend-psi.vercel.app/api/citybuses?state=${state}&city=${city}`;
+} else if (busType === "college") {
+  // For college buses
+  url = `https://bus-backend-psi.vercel.app/api/collegebuses?college_name=${college}`;
+} else {
+  // For intercity buses
+  url = `https://bus-backend-psi.vercel.app/api/intercity?from_state=${state}&from_city=${city}`;
+}
+
 
       console.log("Fetching URL:", url);
 
